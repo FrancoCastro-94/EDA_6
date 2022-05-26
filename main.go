@@ -48,10 +48,10 @@ func main() {
 		}
 
 		if event.Event == "challenge" {
-			if event.Data.Opponent == "Franco2" {
+			// if event.Data.Opponent == "Franco2" {
 				messageAcceptChallenge := getMessageAcceptChallenge(event.Data.Challenge_id)
 				websocket.JSON.Send(ws, &messageAcceptChallenge)
-			}
+			// }
 			continue
 
 		}
