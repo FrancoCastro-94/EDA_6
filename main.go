@@ -9,9 +9,6 @@ import (
 	"golang.org/x/net/websocket"
 )
 
-// const token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiZnJhbmNvOTRjYXN0cm9AaG90bWFpbC5jb20ifQ.MwGdE1LICawwRX8Cp0G71q1isYYeYiGYaqhiBjdaunI"
-// const origin = "wss://4yyity02md.execute-api.us-east-1.amazonaws.com"
-// const url = "wss://4yyity02md.execute-api.us-east-1.amazonaws.com/ws?token=" + token
 
 func main() {
 
